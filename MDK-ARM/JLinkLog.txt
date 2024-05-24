@@ -1,0 +1,27 @@
+
+T021C 000:543 SEGGER J-Link V4.96d Log File (0003ms, 0298ms total)
+T021C 000:543 DLL Compiled: Jan 29 2015 11:45:37 (0003ms, 0298ms total)
+T021C 000:543 Logging started @ 2022-12-16 02:39 (0003ms, 0298ms total)
+T021C 000:546 JLINK_SetWarnOutHandler(...) (0000ms, 0298ms total)
+T021C 000:546 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Apr 20 2018 16:47:26
+Hardware: V9.20
+Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB  returns O.K. (0282ms, 0580ms total)
+T021C 000:828 JLINK_SetErrorOutHandler(...) (0000ms, 0580ms total)
+T021C 000:828 JLINK_ExecCommand("ProjectFile = "D:\program\STM32G07\bigualu\v1.02_22_10_31\MDK-ARM\JLinkSettings.ini"", ...)Device "STM32F030C6 (ALLOW OPT. BYTES)" selected.  returns 0x00 (0025ms, 0605ms total)
+T021C 000:875 JLINK_ExecCommand("Device = STM32G070CBTx", ...)Device "STM32F030C6 (ALLOW OPT. BYTES)" selected.  returns 0x00 (0022ms, 0627ms total)
+T021C 000:897 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0001ms, 0628ms total)
+T021C 000:898 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0628ms total)
+T021C 000:898 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0628ms total)
+T021C 000:898 JLINK_GetFirmwareString(...) (0000ms, 0628ms total)
+T021C 001:030 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0628ms total)
+T021C 001:030 JLINK_GetCompileDateTime() (0000ms, 0628ms total)
+T021C 001:074 JLINK_GetFirmwareString(...) (0000ms, 0628ms total)
+T021C 001:113 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0628ms total)
+T021C 001:158 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0001ms, 0629ms total)
+T021C 001:159 JLINK_SetSpeed(5000) (0000ms, 0629ms total)
+T021C 001:159 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>STM32F0xxx: Can not connect to CPU. Trying connect under reset. >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>
+  ***** Error: STM32F0xxx: Connecting to CPU via connect under reset failed. (0134ms, 0763ms total)
+T021C 003:266 JLINK_Close() (0000ms, 0763ms total)
+T021C 003:266  (0000ms, 0763ms total)
+T021C 003:266 Closed (0000ms, 0763ms total)
