@@ -30,7 +30,10 @@
 #include "lte_demo.h"
 #include "temper_control.h"
 void SystemClock_Config(void);
-
+int func_a(void)
+{
+    return 0;
+}
 int main(void)
 {
   /* USER CODE BEGIN 1 */
