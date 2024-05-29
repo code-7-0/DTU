@@ -38,18 +38,18 @@ int main(void)
 		//前20K为IAP程序
 	SCB->VTOR = FLASH_BASE | 0x5000; 
 	FLASH->SR = FLASH_SR_CLEAR;	
-  HAL_Init();
-  SystemClock_Config();
-  MX_GPIO_Init();
-  MX_DMA_Init();
+	HAL_Init();
+	SystemClock_Config();
+	MX_GPIO_Init();
+	MX_DMA_Init();
 	#ifndef DEBUG
-  MX_IWDG_Init();
+	MX_IWDG_Init();
 	#endif
-  MX_TIM1_Init();//10ms定时器
-  MX_USART1_UART_Init();//EC600N
-  MX_USART2_UART_Init();//MODBUS
-  MX_USART3_UART_Init();//DEBUG
-  MX_TIM3_Init();//计数器
+	MX_TIM1_Init();//10ms定时器
+	MX_USART1_UART_Init();//EC600N
+	MX_USART2_UART_Init();//MODBUS
+	MX_USART3_UART_Init();//DEBUG
+	MX_TIM3_Init();//计数器
 	
   /* USER CODE BEGIN 2 */
 	HAL_TIM_Base_Start_IT(&htim1);//启动定时器TIM1
