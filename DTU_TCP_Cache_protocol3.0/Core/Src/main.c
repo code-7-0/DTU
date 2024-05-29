@@ -29,12 +29,12 @@
 #include "debug.h"
 #include "lte_demo.h"
 #include "temper_control.h"
-void SystemClock_Config(void);
-<<<<<<< HEAD
+void SystemClock_Config(void); 
 int func_a(void)
-=======
-int func_b(void)
->>>>>>> branch_b
+{
+    return 0;
+}
+int func_b(void) 
 {
     return 0;
 }
