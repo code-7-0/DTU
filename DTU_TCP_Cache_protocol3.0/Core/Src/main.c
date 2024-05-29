@@ -30,7 +30,11 @@
 #include "lte_demo.h"
 #include "temper_control.h"
 void SystemClock_Config(void);
+<<<<<<< HEAD
 int func_a(void)
+=======
+int func_b(void)
+>>>>>>> branch_b
 {
     return 0;
 }
